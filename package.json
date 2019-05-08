@@ -1,0 +1,49 @@
+{
+  "name": "@restmatic/authentication",
+  "version": "0.0.0",
+  "description": "Provides Authentication to the RestMatic platform.",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Plugins/**/*",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restmatic/Authentication.git"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Plugin",
+    "RestMatic",
+    "Passport",
+    "Authentication"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/restmatic/Authentication/issues"
+  },
+  "homepage": "https://github.com/restmatic/Authentication#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/lodash": "^4.14.123",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^1.2.4",
+    "@types/passport": "^1.0.0",
+    "bluebird": "^3.5.4",
+    "connect-ensure-login": "^0.1.1",
+    "lodash": "^4.17.11",
+    "passport": "^0.4.0"
+  }
+}
