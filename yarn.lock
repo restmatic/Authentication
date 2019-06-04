@@ -283,15 +283,16 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
-"@pomegranate/plugin-tools@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-1.2.4.tgz#bf26c0f6fb173431f65b07e0176a3561989070c9"
-  integrity sha512-cBBulkITPn7nPgFmVYANqWOGJAT3bL1x7krmhH5YXzyQ40+nuXukA35ln+p0/qmvgLP7upHOw9pkEqgwD0l2eg==
+"@pomegranate/plugin-tools@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-2.0.7.tgz#d5dd6a091012906c431796b50213dee5687ea234"
+  integrity sha512-MPE0smla198bCZzw+fkwPZRk7rQ/yxKYtdyYLTyjNZZbJ8GPph8e6NcTvGFLcCHPuh71q1XCHLFUwGKGczdaIg==
   dependencies:
     "@types/lodash" "^4.14.123"
     bluebird "^3.5.3"
     fs-extra "^7.0.1"
     lodash "^4.17.11"
+    lodash-fun "^1.7.0"
 
 "@types/babel__core@^7.1.0":
   version "7.1.1"
@@ -2300,6 +2301,14 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+lodash-fun@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/lodash-fun/-/lodash-fun-1.7.0.tgz#a78727a395b86ff7d3048751369161df8973d7b7"
+  integrity sha512-sH4jC1a8eyUVuEQ4CXM4KBegNo5eIna1komjgpuFWWm6g4+IEgqRJuALbpwfdl2c85YTiS9zFRbwaZKARcc/hA==
+  dependencies:
+    bluebird "^3.5.3"
+    lodash "^4.17.11"
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
